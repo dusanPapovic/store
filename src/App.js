@@ -8,13 +8,17 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/customers">Customers</Link>
+        <nav className="navbar navbar-expand-sm bg-light">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/customers">
+                Customers
+              </Link>
             </li>
-            <li>
-              <Link to="/products">Products</Link>
+            <li className="nav-item">
+              <Link className="nav-link" to="/products">
+                Products
+              </Link>
             </li>
           </ul>
         </nav>
